@@ -74,7 +74,7 @@ This automatically adds the required `csrf=false` parameter to the request.
 
 The forged request was successfully processed by WebGoat and the challenge was completed.
 
-![Lesson 3 Completed](screenshots/solved.png)
+![Lesson 3 Completed](Solved.png)
 
 ## Key Learning
 
