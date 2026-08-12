@@ -188,7 +188,7 @@ password=REDACTED
 ## ✅ Result
 
 The WebGoat **CSRF Login** lesson was successfully completed.
-(Solved.png)
+![WebGoat CSRF Login - Solved](Solved.png)
 This exercise helped demonstrate:
 
 * How a login request works.
