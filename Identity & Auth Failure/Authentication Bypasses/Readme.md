@@ -99,7 +99,7 @@ The key difference is the modified parameter names:
 secQuestion0  →  secQuestiona0
 secQuestion1  →  secQuestiona1
 ```
-[Results(Solved.png)]
+![Results](Solved.png)
 ## Vulnerability Analysis
 
 The application appears to rely on the presence and processing of specific client-controlled parameter names during account verification.
