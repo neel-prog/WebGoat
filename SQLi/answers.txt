@@ -1,0 +1,28 @@
+2 lesson 
+SELECT department
+FROM employees
+WHERE first_name = 'Bob' AND last_name = 'Franco';
+
+lesson 3
+UPDATE employees SET department = 'Sales' WHERE first_name = 'Tobi' AND last_name = 'Barnett';
+
+lesson 4
+ALTER TABLE employees
+ADD phone VARCHAR(20);
+
+lesson 5
+GRANT ALL PRIVILEGES ON grant_rights TO unauthorized_user;
+
+lesson 10
+0
+0 OR 1=1
+
+lesson 11
+' OR 1=1 --
+
+lesson 12
+Smith'; UPDATE employees SET salary = 999999 WHERE last_name = 'Smith
+
+
+lesson 13
+'; DROP TABLE access_log; --

